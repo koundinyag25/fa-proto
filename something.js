@@ -1,0 +1,1 @@
+import {UserManagementServiceClient } from './generated/js/protos/asset-management/protos/asset-management/asset-management_grpc_web_pb'

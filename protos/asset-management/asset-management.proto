@@ -1,0 +1,33 @@
+syntax = "proto3";
+
+package assetmanagement;
+
+option go_package = 'github.com/koundinyag25/generated/go/assetmanagement;assetmanagement';
+
+message Asset {
+    string id = 1;
+    string name = 2;
+    string email = 3;
+}
+
+message CreateAssetRequest {
+    string name = 1;
+    string email = 2;
+}
+
+message CreateAssetResponse {
+    string id = 1;
+}
+
+message GetAssetRequest {
+    string id = 1;
+}
+
+message GetAssetResponse {
+    Asset user = 1;
+}
+
+service UserManagementService {
+    rpc CreateAsset(CreateAssetRequest) returns (CreateAssetResponse);
+    rpc GetAsset(GetAssetRequest) returns (GetAssetResponse);
+}

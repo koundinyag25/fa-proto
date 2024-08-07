@@ -1,0 +1,18 @@
+{
+  "name": "fa-proto",
+  "version": "1.0.0",
+  "description": "This is the proto repo for all the services which exists in formalley services",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.11.1",
+    "@grpc/proto-loader": "^0.7.13",
+    "grpc-tools": "^1.12.4",
+    "protobufjs": "^7.3.2",
+    "protoc-gen-grpc-web": "^1.5.0"
+  }
+}
