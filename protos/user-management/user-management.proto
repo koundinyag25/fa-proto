@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package usermanagement;
 
-option go_package = 'github.com/koundinyag25/generated/go/usermanagement;usermanagement';
+option go_package = 'generated/go/usermanagement';
 
 message User {
     string id = 1;

@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package assetmanagement;
 
-option go_package = 'github.com/koundinyag25/generated/go/assetmanagement;assetmanagement';
+option go_package = 'generated/go/assetmanagement';
 
 message Asset {
     string id = 1;
